@@ -1,0 +1,19 @@
+/*! tailwindcss v4 CSS styles (Vite will handle imports) */
+:root {
+  color-scheme: dark;
+}
+
+body {
+    background-color: #131125;
+    color: #e4dffc;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.nebula-glow {
+    background: radial-gradient(circle at 50% 50%, rgba(106, 54, 168, 0.15) 0%, rgba(19, 17, 37, 0) 70%);
+}
